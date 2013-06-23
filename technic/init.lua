@@ -2,7 +2,7 @@
 -- namespace: technic
 -- (c) 2012-2013 by RealBadAngel <mk@realbadangel.pl>
 
-modpath=minetest.get_modpath("technic")
+local modpath = minetest.get_modpath("technic")
 
 --Read technic config file
 dofile(modpath.."/config.lua")
